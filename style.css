@@ -1,0 +1,228 @@
+html{
+    scroll-behavior: smooth;
+}
+.navigation_bar{
+    height: 30px;
+    width: 100%;
+    padding-top: 15px;
+    background-color: rgb(207, 249, 249);
+    text-align: center;
+    font-size: 1.2rem;
+}
+.span{
+    text-align: left;
+    margin:7px;
+    overflow: hidden;
+}
+.topspan{
+    color: grey;
+}
+.topspan:hover{
+    color: rgb(203, 194, 194);
+    cursor: pointer;
+}
+.namespan{
+    text-align: right;
+    margin-right:400px;
+    font-size: 1.5rem;
+    font-family:sans-serif;
+    color:grey;
+}
+.btn {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: 'Cabin', sans-serif;
+    color: WHITE;
+    font-size: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #85dbf5;
+    background-image: -webkit-linear-gradient(top, #85dbf5, #64c8fa);
+    background-image: -moz-linear-gradient(top, #85dbf5, #64c8fa);
+    background-image: -ms-linear-gradient(top, #85dbf5, #64c8fa);
+    background-image: -o-linear-gradient(top, #85dbf5, #64c8fa);
+    background-image: linear-gradient(to bottom, #85dbf5, #64c8fa);
+    text-decoration: none;
+  }
+a
+{
+    text-decoration: none;
+}
+body{
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(239, 252, 252);
+    color: rgb(66, 65, 65);
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: rgb(252, 112, 61);
+}
+h3{
+    color: rgb(55, 55, 57);
+}
+hr{
+    width: 5%;
+    border-width: 6px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gainsboro;
+}
+.cloud
+{
+    background-color: rgb(207, 249, 249);
+    height: 60px;
+    width: 60px;
+}
+.contact{
+    margin:100px auto;
+    width: 50%;
+    text-align: center;
+}
+.contact h2{
+    margin-bottom: 50px;
+}
+.contact p{
+    line-height: 1.5;
+    margin-bottom: 80px;
+}
+.first-container{
+    background-color: rgb(207, 249, 249);
+    color: #2398e7;
+    margin:auto;
+}
+.footer
+{
+    background-color: rgb(207, 249, 249);
+    padding: 50px 0px 20px 0px; 
+    text-align: center;
+}
+.footer p
+{
+    font-size: 0.7rem;
+    color: #2398e7;
+}
+.footer a
+{
+    color: #055b94;
+    padding: 0px 20px;
+}
+.footer a:hover{
+    color: #2398e7;
+}
+.intro
+{
+    margin:140px auto 100px;
+    width:50%;
+    text-align: center;
+    line-height: 2;
+}
+.qualifications
+{
+    margin:120px auto;
+    width: 50%;
+}
+.qualifications ul{
+    line-height: 1.5;
+}
+.qualifications p{
+    line-height: 2;
+}
+.qualifications>h2{
+    text-align: center;
+}
+.q-first
+{
+    margin: 50px auto 130px;
+}
+.nsut{
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+.cbse{
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+.programmer{
+    text-decoration: underline;
+}
+.profile
+{
+    width:200px;
+    height: 230px;
+    border-radius: 90%;
+}
+.top-container{
+    margin: auto;
+    padding-top: 70px;
+    text-align: center;
+    width:80%;
+}
+.top-container h1{
+    font-size: 3rem;
+}
+.top-container p{
+    font-size: 1.5rem;
+}
+#skills{
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+/* .skill_row{
+    
+} */
+.computer{
+    float: left;
+    width:180px;
+    margin-right: 10px;
+}
+.cricket{
+    float: right;
+    width: 120px;
+}
+.skill-row{
+    text-align: left;
+    margin: 100px;
+
+}
+#interest{
+    padding-top: 60px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.interest{
+    display: flex;
+    gap: 40px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+.interest img{
+    width: 200px;
+    border-radius: 5px;
+}
+.photo1,.photo2,.photo3{
+    height: 150px;
+    width: 200px;
+    margin-top: 40px;
+}
